@@ -7,6 +7,7 @@ import { dataContext } from '../context/UserContext'
 import { RxCross2 } from "react-icons/rx";
 import Card2 from '../components/Card2'
 import { useSelector } from 'react-redux'
+import { toast } from 'react-toastify'
 
 function Home() {
   let {cate, setCate, input, showCart, setShowCart} = useContext(dataContext)
